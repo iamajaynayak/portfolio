@@ -1,0 +1,16 @@
+/* .timeline-list{
+    grid-template-columns: 1fr;
+}
+
+.timeline hr {
+    --tw-bg-opacity: 1;
+    background-color: var(--fallback-b3,oklch(var(--a)/var(--tw-bg-opacity)));
+  } */
+
+  /* :where(.menu > li) {
+    padding-top: 10px !important;
+  } */
+
+  .menu :where(li ul) {
+    white-space: unset !important;
+  }
