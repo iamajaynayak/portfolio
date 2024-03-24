@@ -2,7 +2,7 @@ import { INTRODUCTION } from "../assets/introduction"
 
 export const Introduction = () => {
     const { title, heading, detail} = INTRODUCTION
-    return <>
+    return <div className="mt-4">
         <p className="text-3xl md:text-4xl lg:text-5xl font-bold">
             {title}
         </p>
@@ -12,5 +12,5 @@ export const Introduction = () => {
         <p className="!mt- 3 text-md md:text-xl lg:text-xl font-normal">
             {detail}
         </p>
-    </>
+    </div>
 }

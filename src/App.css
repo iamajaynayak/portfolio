@@ -17,3 +17,8 @@ html {
   width: 100vw;
   box-sizing: border-box;
 }
+
+.menu :where(li ul)::before {
+  background-color: oklch(var(--b2)) !important;
+  opacity: 0.2 !important;
+}

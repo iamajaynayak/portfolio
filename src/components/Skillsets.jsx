@@ -9,7 +9,10 @@ export const Skillsets = () => (
                 {EXPERIENCE.map((exp, idx) =>
                     <div className="mt-3" key={idx}>
                         <li className="text-md font-black">{exp.company}</li>
-                        <li className="text-sm font-black">{exp.job}</li>
+                        {/* <div className="join gap-2"> */}
+                            <li className="text-sm font-black">{exp.job}</li>
+                            <li  className="text-xs font-black">Tech-Stacks : {exp.TechStacks}</li>
+                        {/* </div> */}
                         <li className="font-mono italic">{exp.time}</li>
                         <li>
                             <ul>

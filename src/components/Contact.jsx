@@ -6,8 +6,8 @@ const handleClick = () => {
 }
 
 export const Contact = () => (
-    <div className="tooltip tooltip-bottom tooltip-accent" data-tip="email">
-        <button className="btn btn-accent btn-wide btn-outline mr-2" onClick={handleClick}>
+    <div className="tooltip tooltip-bottom" data-tip="email">
+        <button className="btn btn-neutral btn-wide btn-outline mr-2" onClick={handleClick}>
             iamajaynayak@outlook.com
         </button>
     </div>

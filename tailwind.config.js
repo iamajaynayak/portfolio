@@ -8,11 +8,10 @@ export default {
     themes: [
       {
         dark: {
-          ...require("daisyui/src/theming/themes")["dark"],
+          ...require("daisyui/src/theming/themes")["emerald"],
         }
       },
     ],
-    darkTheme: "dark",
   },
   plugins: [require("@tailwindcss/typography"),require('daisyui')],
 }

@@ -25,8 +25,8 @@ const BUTTONS = [
 export const SocialMedia = () => (
     <div className="join">
         {BUTTONS.map((social, idx) =>
-            <div key={idx} className="tooltip tooltip-bottom tooltip-accent" data-tip={social.name}>
-                <button className="btn join-item" onClick={() => handleClick(social.name)}>
+            <div key={idx} className="tooltip tooltip-bottom" data-tip={social.name}>
+                <button className="btn btn-neutral join-item" onClick={() => handleClick(social.name)}>
                     <div className="h-[24px] w-[24px]">
                         <img src={social.url} alt={social.name} />
                     </div>
